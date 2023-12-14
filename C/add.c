@@ -1,1 +1,1 @@
-int Add(int a,int b);
+int Add(int a,int b);//声明函数
