@@ -1,0 +1,13 @@
+s="HelloWorld"
+print(s)
+new_s=s.replace('o',"你好",1)#最后一个是替换次数
+new_s2=s.replace('o',"你好")
+print(new_s2)
+print(new_s)
+print(s.center(20,'*'))
+name="马冬梅"
+age=21
+score=98.5
+print("姓名:%s,年龄:%d,成绩:%.2f"%(name,age,score))
+print(f"姓名:{name},年龄:{age},成绩:{score}")
+print("姓名:{0},年龄:{1},成绩:{2}".format(name,age,score))
