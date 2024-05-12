@@ -1,4 +1,3 @@
-'''
 from openai import OpenAI
 
 client = OpenAI(
@@ -16,13 +15,3 @@ response = client.chat.completions.create(
   ]
 )
 print(response.choices[0].message.content)
-'''
-import ollama
-response = ollama.chat(model='llama2', messages=[
-  {
-    'role': 'user',
-    'content': 'Why is the sky blue?',
-  },
-])
-print(response['message']['content'])
-
